@@ -1,4 +1,4 @@
-#Tatame_Analytics#
+##Tatame_Analytics##
 
 Este é um projeto desenvolvido para construir uma pipeline de dados profissional, automatizada e escalável para o Instituto Tatame do Bem.  
 O fluxo conta com **Python (ETL)**, **Supabase/PostgreSQL** (Data Warehouse) e **Power BI (Dashboards)**, garantindo centralização, qualidade e confiabilidade das informações.
