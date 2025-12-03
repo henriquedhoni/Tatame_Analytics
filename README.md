@@ -36,7 +36,7 @@ Criar uma arquitetura de dados que permita:
 - Relatórios financeiros
 - Indicadores de desempenho
 
-
+Obs:
 Este projeto está em andamento.
 No momento, já concluí a etapa de:
 - Extração de todas as fontes de dados
