@@ -1,9 +1,9 @@
-Tatame_Analytics
+#Tatame_Analytics
 
 Este é um projeto desenvolvido para construir uma pipeline de dados profissional, automatizada e escalável para o Instituto Tatame do Bem.  
 O fluxo conta com **Python (ETL)**, **Supabase/PostgreSQL** (Data Warehouse) e **Power BI (Dashboards)**, garantindo centralização, qualidade e confiabilidade das informações.
 
-# Objetivo do Projeto
+## Objetivo do Projeto
 
 Criar uma arquitetura de dados que permita:
 
@@ -13,7 +13,7 @@ Criar uma arquitetura de dados que permita:
 - Integrar o Power BI para dashboards atualizados e análises estratégicas.
 - Padronizar processos e permitir reprodutibilidade por qualquer membro da equipe.
 
-#  Arquitetura da Pipeline
+##  Arquitetura da Pipeline
 
 Fonte de Dados]
 |
