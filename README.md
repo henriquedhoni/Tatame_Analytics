@@ -16,26 +16,26 @@ Criar uma arquitetura de dados que permita:
 ##  Arquitetura da Pipeline
 
 Fonte de Dados]
-|
+
 |-- API HYB (Lançamentos financeiros)
 |-- Base Access (sistema de controle de doações)
 |-- Google Sheets (vendas das lojinhas do tatame)
 |-- Planilhas internas
-|
+
 [Python ETL]
-|
+
 |-- Extração automática
 |-- Tratamento e padronização
 |-- Geração de dados RAW e Processados
-|
+
 [Supabase / PostgreSQL]
-|
+
 |-- Data Warehouse
 |-- Tabelas fato e dimensões
 |-- Versionamento e históricos
-|
+
 [Power BI]
-|
+
 |-- Dashboards
 |-- Relatórios financeiros
 |-- Indicadores de desempenho
