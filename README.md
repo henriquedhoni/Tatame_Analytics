@@ -15,30 +15,26 @@ Criar uma arquitetura de dados que permita:
 
 ##  Arquitetura da Pipeline
 
-Fonte de Dados]
-
-|-- API HYB (Lançamentos financeiros)
-|-- Base Access (sistema de controle de doações)
-|-- Google Sheets (vendas das lojinhas do tatame)
-|-- Planilhas internas
+[Fonte de Dados]
+- API HYB (Lançamentos financeiros)
+- Base Access (sistema de controle de doações)
+- Google Sheets (vendas das lojinhas do tatame)
+- Planilhas internas
 
 [Python ETL]
-
-|-- Extração automática
-|-- Tratamento e padronização
-|-- Geração de dados RAW e Processados
+- Extração automática
+- Tratamento e padronização
+- Geração de dados RAW e Processados
 
 [Supabase / PostgreSQL]
-
-|-- Data Warehouse
-|-- Tabelas fato e dimensões
-|-- Versionamento e históricos
+- Data Warehouse
+- Tabelas fato e dimensões
+- Versionamento e históricos
 
 [Power BI]
-
-|-- Dashboards
-|-- Relatórios financeiros
-|-- Indicadores de desempenho
+- Dashboards
+- Relatórios financeiros
+- Indicadores de desempenho
 
 
 Este projeto está em andamento.
@@ -46,4 +42,4 @@ No momento, já concluí a etapa de:
 - Extração de todas as fontes de dados
 - Salvamento dos dados brutos
 
-Agora seguirei com o tratamento dos dados.
+Agora seguirei com o tratamento dos dados e salvamento dois dados tratados para subir para o banco de dados de forma unificada e organizada.
